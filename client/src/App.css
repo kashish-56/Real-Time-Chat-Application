@@ -1,0 +1,48 @@
+/* Light Theme (default) */
+:root {
+  --card: #ffffff;
+  --box:  #f9f9f9;
+  --border: #ddd;
+  --input-bg: #ffffff;
+  --text: #222;
+  --bubble-self: #d1e7ff;
+  --bubble-other: #eaeaea;
+  --bubble-text: #000;
+}
+
+/* Dark Theme */
+body.dark {
+  --card: #1e1e2f;
+  --box:  #272741;
+  --border: #444;
+  --input-bg: #33345a;
+  --text: #f1f1f1;
+  --bubble-self: #4b6bff;
+  --bubble-other: #3d3d5c;
+  --bubble-text: #fff;
+  background: #121212;
+  color: var(--text);
+  transition: background 0.3s;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.theme-toggle {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: #f1f1f1;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}

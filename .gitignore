@@ -1,0 +1,26 @@
+# Node.js (for server)
+server/node_modules/
+server/.env
+server/dist/
+server/logs/
+server/npm-debug.log*
+
+# React (for client)
+client/node_modules/
+client/.env
+client/build/
+client/.DS_Store
+
+# General
+.env
+*.log
+*.tgz
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# OS
+*.bak
+*.tmp
